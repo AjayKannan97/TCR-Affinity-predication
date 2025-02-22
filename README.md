@@ -1,10 +1,10 @@
-*TCR Affinity Prediction*
+#TCR Affinity Prediction
 
-Overview
+##Overview
 
 This repository contains the implementation of a TCR-Epitope Binding Affinity Prediction model using Few-Shot Learning. The project focuses on enhancing the accuracy of predicting TCR (T-cell receptor) binding affinities using contrastive loss in a Siamese Network framework.
 
-Features
+###Features
 
 Few-Shot Learning Approach: Utilizes a Siamese network to predict TCR-epitope affinity with limited labeled data.
 
@@ -16,7 +16,7 @@ Evaluation Metrics: Uses accuracy, precision, recall, and F1-score to assess the
 
 Visualization: Plots embedding spaces and affinity score distributions for insights.
 
-Project Structure
+###Project Structure
 
 ├── data/                 # Preprocessed TCR-epitope dataset
 ├── models/               # Implementation of Siamese Network with contrastive loss
@@ -26,40 +26,40 @@ Project Structure
 ├── README.md             # Project documentation
 └── requirements.txt      # List of dependencies
 
-Installation
+##Installation
 
-Clone the repository:
+###Clone the repository:
 
 git clone https://github.com/AjayKannan97/TCR-Affinity-predication.git
 cd TCR-Affinity-predication
 
-Create and activate a virtual environment (optional but recommended):
+###Create and activate a virtual environment (optional but recommended):
 
 python3 -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
 
-Install dependencies:
+###Install dependencies:
 
 pip install -r requirements.txt
 
-Usage
+##Usage
 
-Train the Model:
+###Train the Model:
 
 python scripts/train_model.py --epochs 50 --batch_size 32
 
-Evaluate the Model:
+###Evaluate the Model:
 
 python scripts/evaluate.py --model_path models/best_model.pth
 
 Run Exploratory Data Analysis (EDA):
 Open and run notebooks/EDA.ipynb in Jupyter Notebook.
 
-Results
+###Results
 
 The model demonstrated a 30% improvement in prediction accuracy over traditional approaches by leveraging Few-Shot Learning with contrastive loss. More details can be found in the results/ directory.
 
-References
+###References
 
 Contrastive Loss in Siamese Networks - Used for learning discriminative TCR-epitope embeddings.
 
@@ -67,7 +67,7 @@ Few-Shot Learning Techniques - Helps in learning with limited labeled data.
 
 TCR Binding Prediction Literature - Incorporates domain-specific knowledge in immunoinformatics.
 
-Contact
+###Contact
 
 For queries or collaborations, feel free to reach out:
 
