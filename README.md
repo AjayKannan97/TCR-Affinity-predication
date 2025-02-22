@@ -17,7 +17,7 @@ Evaluation Metrics: Uses accuracy, precision, recall, and F1-score to assess the
 Visualization: Plots embedding spaces and affinity score distributions for insights.
 
 ### Project Structure
-
+'''
 ├── data/                 # Preprocessed TCR-epitope dataset
 ├── models/               # Implementation of Siamese Network with contrastive loss
 ├── notebooks/            # Jupyter notebooks for EDA and model training
@@ -25,6 +25,7 @@ Visualization: Plots embedding spaces and affinity score distributions for insig
 ├── results/              # Performance metrics and visualization outputs
 ├── README.md             # Project documentation
 └── requirements.txt      # List of dependencies
+'''
 
 ## Installation
 
